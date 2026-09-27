@@ -1,0 +1,63 @@
+body
+{
+     background-color: #cce8cc;
+     color:black;
+     font-size: medium;
+     text-align:center;
+}
+
+.container
+{
+    height:70vh;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+
+.button
+{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:1.5vmin;
+    align-items:center ;
+}
+
+.click
+{
+    height:18vmin;
+    width:18vmin;
+    color:black;
+    background-color: #e2b6cf;
+    text-align: center;  
+    border: none;
+    border-radius: 1rem;
+    box-shadow: inset;
+    font-size: 80px;
+    color:maroon;
+}
+
+
+#msg{
+    font-size: 5vmin;
+    color: #e2b6cf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.msgcon{
+    height:10vmin;   
+}
+
+.hide{
+    display: none;
+}
+  
+
+#reset{
+    height:50px;
+    width:100px;
+    color:white;
+    background-color: #e365c1;
+}
